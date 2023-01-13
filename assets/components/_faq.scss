@@ -1,0 +1,72 @@
+.faq {
+    margin-top: 128px;
+    position: relative;
+    &:before {
+        content: "Вопросы";
+        position: absolute;
+        top: -140px;
+        left: 0;
+        z-index: -1;
+
+        font-family: "Spectral SC";
+        font-weight: 300;
+        font-size: 245px;
+        text-transform: uppercase;
+        color: rgba(94, 92, 90, 0.03);
+    }
+
+    &__title {
+        text-align: center;
+        font-family: "Spectral SC";
+        font-weight: 600;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #424242;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 64px;
+
+        input {
+            border: 1px solid #bdbdbd;
+            border-radius: 46px;
+
+            font-family: "Montserrat";
+            font-weight: 400;
+            font-size: 14px;
+            color: #bdbdbd;
+            padding: 17px 32px;
+        }
+
+        button {
+            background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+            border-radius: 49px;
+            padding: 13px 45px;
+            border: none;
+            font-family: "Spectral SC";
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+}
+
+@media screen and (max-width:721px) {
+    .faq{
+        form{
+            gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:674px) {
+    .faq{
+        form{
+            flex-wrap: wrap;
+        }
+    }
+}

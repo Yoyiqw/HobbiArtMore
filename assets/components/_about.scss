@@ -1,0 +1,61 @@
+.about {
+    margin-top: 128px;
+
+    &__title {
+        font-family: "Spectral SC";
+        font-weight: 600;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #424242;
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        margin-top: 64px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 22px;
+
+        h3 {
+            font-family: "Spectral SC";
+            font-weight: 500;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #424242;
+        }
+
+        p {
+            font-family: "Montserrat";
+            font-weight: 400;
+            font-size: 16px;
+            color: #424242;
+        }
+    }
+}
+@media screen and (max-width:956px) {
+    .about{
+        &__content{
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .about{
+        &__title{
+            font-size: 25px;
+        }
+        &__item p{
+            font-size: 14px;
+        }
+        &__item h3{
+            font-size: 20px;
+        }
+    }
+    }
