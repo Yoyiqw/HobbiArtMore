@@ -1,0 +1,219 @@
+.hero {
+    &__wrapper {
+        overflow: hidden;
+
+        img {
+            max-width: 100%;
+        }
+    }
+    &__content{
+        margin-top: 79.35px;
+    }
+    .swiper-pagination {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #424242;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 4%;
+        right: 11.6%;
+        left: auto;
+        width: auto;
+    }
+
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        content: "";
+        background: url(../assets/img/hero/slider-arrow.svg);
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        transform: rotate(180deg);
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        top: auto;
+        left: auto;
+        right: 13.5%;
+        bottom: 2.5%;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        top: auto;
+        left: auto;
+        right: 9.8%;
+        bottom: 2.5%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .hero {
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            right: 14%;
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 9%;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .hero {
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            right: 15%;
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 8%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            right: 15%;
+            bottom: 2.5%;
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            left: auto;
+            right: 8%;
+            bottom: 2.5%;
+        }
+
+        .swiper-pagination {
+            font-size: 14px;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 6%;
+        }
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .hero {
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            right: 15%;
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 7%;
+        }
+
+        .swiper-pagination {
+            font-size: 12px;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 7%;
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero {
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            right: 15%;
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 6%;
+        }
+
+        .swiper-pagination {
+            font-size: 11px;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 8%;
+        }
+
+        .swiper-button-next:after,
+        .swiper-rtl .swiper-button-prev:after,
+        .swiper-button-prev:after,
+        .swiper-rtl .swiper-button-next:after {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .hero {
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 9%;
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .hero {
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 5%;
+        }
+
+        .swiper-pagination {
+            font-size: 10px;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 11%;
+        }
+    }
+}
